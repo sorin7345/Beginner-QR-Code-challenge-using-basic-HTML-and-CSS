@@ -7,6 +7,10 @@
 body {
   background-color: #c4e4e9;
   font-family: sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .qr-code {
   border-radius: 25px;
@@ -22,9 +26,9 @@ body {
   height: 515px;
   width: 325px;
   border-radius: 25px;
-  margin-left: 500px;
+/*   margin-left: 500px;
   margin-top: 200px;
-  margin-bottom: 200px;
+  margin-bottom: 200px; */
 }
 .scan {
   font-weight: bold;
